@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  display:"relative";
 }
 
 .container {
@@ -854,3 +855,4 @@ body.dark-mode .highlight {
     margin-bottom: 20px;
     padding: 100px;
   }
+
