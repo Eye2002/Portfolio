@@ -117,7 +117,7 @@ document.querySelector('.email-btn').addEventListener('click', function() {
 });
 
  document.getElementById('downloadResume').addEventListener('click', function (event) {
-      event.preventDefault(); // Prevent default link behavior
+      event.preventDefault();
 
       // Show SweetAlert2 popup
       Swal.fire({
@@ -129,9 +129,10 @@ document.querySelector('.email-btn').addEventListener('click', function() {
         showConfirmButton: false
       });
 
-      // Start download after short delay
       setTimeout(function () {
-        window.location.href = 'files/Resume.pdf'; // Replace with actual path
+        window.location.href = 'files/Resumess.pdf'; 
       }, 1500);
     });
+
+
 
