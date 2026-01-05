@@ -130,9 +130,10 @@ document.querySelector('.email-btn').addEventListener('click', function() {
       });
 
       setTimeout(function () {
-        window.location.href = 'files/Resumess.pdf'; 
+        window.location.href = 'files/HResume.pdf'; 
       }, 1500);
     });
+
 
 
 
